@@ -15,6 +15,8 @@
 		32973CFC24F5835F007EA6C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32973CFA24F5835F007EA6C6 /* LaunchScreen.storyboard */; };
 		32973D0724F5835F007EA6C6 /* Testing_Network_Requests__with_Mocks_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32973D0624F5835F007EA6C6 /* Testing_Network_Requests__with_Mocks_Tests.swift */; };
 		32973D1224F5835F007EA6C6 /* Testing_Network_Requests__with_Mocks_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32973D1124F5835F007EA6C6 /* Testing_Network_Requests__with_Mocks_UITests.swift */; };
+		32973D2024F58EA3007EA6C6 /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32973D1F24F58EA3007EA6C6 /* MockURLSession.swift */; };
+		32973D2224F593EB007EA6C6 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32973D2124F593EB007EA6C6 /* TestHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		32973D0D24F5835F007EA6C6 /* Testing Network Requests (with Mocks)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Testing Network Requests (with Mocks)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32973D1124F5835F007EA6C6 /* Testing_Network_Requests__with_Mocks_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing_Network_Requests__with_Mocks_UITests.swift; sourceTree = "<group>"; };
 		32973D1324F5835F007EA6C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32973D1F24F58EA3007EA6C6 /* MockURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
+		32973D2124F593EB007EA6C6 /* TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 			children = (
 				32973D0624F5835F007EA6C6 /* Testing_Network_Requests__with_Mocks_Tests.swift */,
 				32973D0824F5835F007EA6C6 /* Info.plist */,
+				32973D1F24F58EA3007EA6C6 /* MockURLSession.swift */,
+				32973D2124F593EB007EA6C6 /* TestHelpers.swift */,
 			);
 			path = "Testing Network Requests (with Mocks)Tests";
 			sourceTree = "<group>";
@@ -269,7 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32973D2024F58EA3007EA6C6 /* MockURLSession.swift in Sources */,
 				32973D0724F5835F007EA6C6 /* Testing_Network_Requests__with_Mocks_Tests.swift in Sources */,
+				32973D2224F593EB007EA6C6 /* TestHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
