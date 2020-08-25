@@ -9,6 +9,11 @@
 import Foundation
 @testable import Testing_Network_Requests__with_Mocks_
 
+/*
+ This is a spy class that allows us to inject a mock Datatask allowing us to test what we
+ are passing to the request without actually having the Data come back causing a slow down.
+ The only problem with this is, we do not test how we are parsing or handling the data that comes back.
+ */
 class MockURLSession: URLSessionProtocol {
     var dataTaskCallCount = 0
     var dataTaskArgsRequest: [URLRequest] = []

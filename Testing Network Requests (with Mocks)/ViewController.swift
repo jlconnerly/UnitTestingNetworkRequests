@@ -25,7 +25,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func sendRequestTapped(_ sender: UIButton) {
@@ -50,7 +49,6 @@ class ViewController: UIViewController {
                 self.dataTask = nil
                 self.sendRequestButton.isEnabled = true
             }
-            
         }
         sendRequestButton.isEnabled = false
         dataTask?.resume()
